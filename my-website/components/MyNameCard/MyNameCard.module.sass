@@ -1,0 +1,97 @@
+@import "../../styles/_mixins.sass"
+@import "../../styles/_variables.sass"
+
+.root
+    padding: 0% 10%
+    display: flex
+    +rwd-gt(tablet-sm)
+        padding: 0 1.5%
+.imgDiv
+    flex: 0.5
+    height: 100%
+ 
+.container
+    display: flex
+    background: #FFF
+    width: 100%
+    height: 100%
+    box-shadow: 10px 10px 10px 1.5px #B4BEC9
+    border-radius: 20px
+    color: #828080
+    overflow: hidden
+    position: relative
+    margin-top: 20px
+    *
+        margin: 0
+    +rwd-gt(tablet-sm)
+        width: 100%
+        height: 100%
+        flex-direction: column
+.information
+    flex: 1
+.intro
+     list-style-type: none
+     text-align: center
+     li
+         font-size: 1.1rem
+         margin-bottom: 5px
+         font-weight: bold
+
+
+
+.photo
+    width: 100%
+    height: 300px
+    position: relative
+    transform: translate(-50%, -50%)
+    top: 50%
+    left: 50%
+    +rwd-gt(tablet-sm)
+        transform: translate(-50%,0)
+        top: 50px
+        width:75%
+        height: auto
+.photoContainer
+        margin-bottom:55px     
+.name
+    font-family: Calibri
+    font-size: 35px
+    padding-left: 40px
+    padding-top: 40px
+    color: #000
+    +rwd-gt(tablet-sm)
+        text-align: center
+        padding: 0
+.jobTitle
+    font-size: 22px
+    text-align: right
+    padding-right: 20px 
+    padding-bottom: 20px
+    +rwd-gt(tablet-sm)
+        text-align: center
+        padding: 0
+        margin-bottom:10px 
+.describe
+    font-size: 18px
+    padding: 50px 70px
+    li
+        padding-top: 5px 
+    +rwd-gt(tablet-sm)
+        padding:  5% 
+.age
+    text-align: center
+    padding: 5px 0px
+    font-size: 16px
+    +rwd-gt(tablet-sm)
+        padding: 0
+.circle
+    width: 200px
+    height: 200px
+    background: #f29f05b0
+    position: absolute
+    right: -80px
+    top: -110px
+    border-radius: 50%
+
+
+

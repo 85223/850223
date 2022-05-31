@@ -1,0 +1,106 @@
+export default {
+  arvr: [
+    {
+      id: "kanjianxiaoshiguan",
+      path: "/S__4702210.jpg",
+      title: "arvr作品1號",
+      link: "http://localhost:3000/",
+      introImg: ["/homework1.png"],
+    },
+    {
+      id: "youxiu-de-chengzhong",
+      path: "/S__4702210.jpg",
+      title: "arvr作品2號",
+      link: "http://localhost:3000/",
+      introImg: ["/homework1.png"],
+    },
+    {
+      id: "chengzhong-da-jiating",
+      path: "/S__4702210.jpg",
+      title: "arvr作品3號",
+      link: "http://localhost:3000/",
+      introImg: ["/homework1.png"],
+    },
+  ],
+  web: [
+    {
+      id: "1",
+      path: "/roosterlighting.png",
+      title: "雄雞燈具 | WebAR燈具展示",
+      link: "https://roosterlighting.s3.us-east-2.amazonaws.com/index.html",
+      introImg: [
+        "/roosterlighting.png",
+        "/roosterlighting_1.png",
+        "/roosterlighting_2.png",
+        "/roosterlighting_3.jpeg",
+      ],
+      partner: {
+        art: "依珊",
+        fontEnd: "Andy Tsai & 宇翔",
+      },
+    },
+    {
+      id: "2",
+      path: "/homework1.png",
+      title: "切版練習｜電商網站",
+      link: "https://85223.github.io/850223/homework1/",
+      introImg: ["/homework1.png"],
+    },
+    {
+      id: "3",
+      path: "/homework2_1.png",
+      title: "切版練習｜電商網站",
+      link: "https://85223.github.io/850223/homework2/",
+      introImg: ["/homework2_1.png", "/homework2_2.png", "/homework2_3.png"],
+    },
+    {
+      id: "4",
+      path: "/daxi_1.png",
+      title: "桃園大溪｜環境教育互動網站 ( mobile )",
+      link: "https://ecologisticsdaxi.tydep.gov.tw/",
+      introImg: ["/daxi_1.png", "/daxi_2.png", "/daxi_3.png", "/daxi_4.png"],
+      partner: {
+        planning: "Maggie",
+        art: "亭穎",
+        fontEnd: "Andy Tsai & 宇翔",
+      },
+    },
+    {
+      id: "5",
+      path: "/drop-animation.png",
+      title: "動畫練習｜水滴動畫",
+      link: "https://85223.github.io/850223/Drop-animation/",
+      introImg: ["/drop-animation.png"],
+    },
+  ],
+  all: [
+    {
+      id: "kanjianxiaoshiguan",
+      path: "/S__4702210.jpg",
+      title: "all作品1號",
+      link: "http://localhost:3000/",
+      introImg: ["/homework1.png"],
+    },
+    {
+      id: "youxiu-de-chengzhong",
+      path: "/S__4702210.jpg",
+      title: "all作品2號",
+      link: "http://localhost:3000/",
+      introImg: ["/homework1.png"],
+    },
+    {
+      id: "chengzhong-da-jiating",
+      path: "/S__4702210.jpg",
+      title: "all作品3號",
+      link: "http://localhost:3000/",
+      introImg: ["/homework1.png"],
+    },
+    {
+      id: "ling-ren-jiaoao-de-chengzhong",
+      path: "/S__4702210.jpg",
+      title: "all作品4號",
+      link: "http://localhost:3000/",
+      introImg: ["/homework1.png"],
+    },
+  ],
+};
