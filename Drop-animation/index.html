@@ -14,7 +14,7 @@
       <div class="drop"></div>
       <div class="drop"></div>
       <div class="collection"></div>
-      <span id="schedule">90%</span>
+      <span id="schedule">0%</span>
     </div>
     <script>
       let counter = 0;
@@ -22,6 +22,7 @@
       //   return (counter += 0.5);
       // }
       function count() {
+        if (counter >= 100) counter = 0;
         counter += 1;
         document.querySelector("#schedule").textContent = `${counter}  %`;
       }
