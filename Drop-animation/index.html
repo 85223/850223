@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="drop"></div>
+      <div class="drop"></div>
+      <div class="drop"></div>
+      <div class="collection"></div>
+      <span id="schedule">90%</span>
+    </div>
+    <script>
+      let counter = 0;
+      // function myFunction() {
+      //   return (counter += 0.5);
+      // }
+      function count() {
+        counter += 1;
+        document.querySelector("#schedule").textContent = `${counter}  %`;
+      }
+      var test = setInterval(function () {
+        var t = setInterval(function () {
+          count();
+          clearInterval(t);
+        }, 1000);
+      }, 2500);
+
+      let scheduleEl = document.querySelector("#schedule").textContent;
+      console.log(scheduleEl);
+    </script>
+  </body>
+</html>
