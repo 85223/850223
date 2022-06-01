@@ -19,7 +19,7 @@ const MyNameCard = () => {
           <ul className={classes.describe}>
             <li>您好，我是石宇翔</li>
             <li>半年前剛從unity工程師轉成react前端工程師</li>
-            <li>目前專職於使用react next 及前端相關技術進行專案開發。</li>
+            <li>目前專職於使用 Next.js (React) 及前端相關技術進行專案開發。</li>
           </ul>
           <div className={classes.circle}></div>
         </div>

@@ -39,7 +39,7 @@ const Index = () => {
               title={item.title}
               link={item.link}
               introArr={item.introImg}
-              partner={item.partner}
+              // partner={item.partner}
             />
           ))}
         </div>
